@@ -75,7 +75,7 @@
     return NO;
 }
 
-+ (NSString*) getFileType:(NSData *)imageData
++ (NSString*) getFileType:(NSData *)imageData isCamera:(Boolean)isCamera
 {
     const uint8_t firstByteJpg = 0xFF;
     const uint8_t firstBytePng = 0x89;
